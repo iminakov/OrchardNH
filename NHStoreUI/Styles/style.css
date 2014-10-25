@@ -1,0 +1,12 @@
+﻿.cus-container {
+  margin: 20px;
+}
+
+.cus-item {
+  margin: 10px;
+}
+
+.cus-item span.cus-name {
+  color: #ffee88;
+  font-weight: bold;
+}

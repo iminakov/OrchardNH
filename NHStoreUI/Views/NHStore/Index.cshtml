@@ -1,0 +1,30 @@
+﻿@model NHStoreUI.ViewModel.NHStoreViewModel
+@{
+  Style.Require("NHStoreUI_Style");
+}
+
+<div class="cus-container">
+  <h4>NH Store Orders (@(Model.Orders.Count())): </h4> 
+</div>
+<div class="cus-container">
+  @foreach (var item in Model.Orders)
+  {
+    <div class="cus-item">
+      <span><b>Order</b> #@item.OrderNumber (@item.OrderStatus):</span><br/>
+      <span>CreationDate: @item.OrderCreationDate.ToShortDateString()</span><br/><br/>
+      <span><b>Customer:</b> </span><br/>
+      <span>@item.ShipToCustomerFirstName</span>
+      <span>@item.ShipToCustomerLastName, @item.ShipToCustomerBirthDay.ToShortDateString(), @item.ShipToCustomerAddress</span> <br/><br/>
+      <span><b>Products:</b> </span><br/>
+      @foreach (var orderDetail in item.OrderDetails)
+      {
+        <span>@orderDetail.ProductName, @orderDetail.ProductDescription - @orderDetail.Rate.ToString(".##$")</span><br/>
+      }
+    </div> 
+    <hr /> 
+  } 
+</div>
+
+<div class="cus-container">
+  
+</div>

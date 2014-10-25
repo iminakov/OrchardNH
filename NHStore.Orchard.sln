@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHStoreUI", "NHStoreUI\NHStoreUI.csproj", "{1749C64C-27AC-491C-A8C1-FBB0558F71E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHStore.Domain", "NHStore.Domain\NHStore.Domain.csproj", "{74E319B1-ACB9-48D1-A2EF-38D6E94583E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHStore.DB.DataBuilder", "NHStore.DB.DataBuilder\NHStore.DB.DataBuilder.csproj", "{8366FB21-C62E-48E6-A809-47F6B7CF596C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1749C64C-27AC-491C-A8C1-FBB0558F71E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1749C64C-27AC-491C-A8C1-FBB0558F71E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1749C64C-27AC-491C-A8C1-FBB0558F71E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1749C64C-27AC-491C-A8C1-FBB0558F71E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74E319B1-ACB9-48D1-A2EF-38D6E94583E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74E319B1-ACB9-48D1-A2EF-38D6E94583E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74E319B1-ACB9-48D1-A2EF-38D6E94583E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74E319B1-ACB9-48D1-A2EF-38D6E94583E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8366FB21-C62E-48E6-A809-47F6B7CF596C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8366FB21-C62E-48E6-A809-47F6B7CF596C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8366FB21-C62E-48E6-A809-47F6B7CF596C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8366FB21-C62E-48E6-A809-47F6B7CF596C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
