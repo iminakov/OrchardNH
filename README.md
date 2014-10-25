@@ -1,4 +1,4 @@
-Using NHibernate in Orchard.CMS features directly
+Using NHibernate features in Orchard.CMS directly
 =========
 
 This is example project how to use NHibernate features in Orchard.CMS module directly. Solution includes the following projects:
